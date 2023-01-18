@@ -1,1 +1,428 @@
-FD
+
+[
+ {
+  "name": "Los Angeles Lakers Graphic Tee",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwf90caf9c/60181067_500_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 87,
+  "rating": 7.4,
+  "id": "1"
+ },
+ {
+  "name": "Athletic Fit Chinos",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwcb9b572f/64912174_289_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 40,
+  "rating": 7.2,
+  "id": "2"
+ },
+ {
+  "name": "Athletic Fit Chinos",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwa60db695/64912174_257_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 52,
+  "rating": 9,
+  "id": "3"
+ },
+ {
+  "name": "Los Angeles Lakers Bomber JAcket",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw5d72ec6d/67630812_500_alt3.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 50,
+  "rating": 9.8,
+  "id": "4"
+ },
+ {
+  "name": "One Piece Anime Graphic Tee",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw34e9e31b/60181076_007_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 48,
+  "rating": 8.7,
+  "id": "5"
+ },
+ {
+  "name": "Slim Hemp Denim Shorts 9.5",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw4c895137/66312491_142_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 26,
+  "rating": 8.1,
+  "id": "6"
+ },
+ {
+  "name": "New York Knicks Tee",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw170f150f/60181070_001_alt2.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 41,
+  "rating": 7.1,
+  "id": "7"
+ },
+ {
+  "name": "Skinny Premium Jean",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw6c2a6084/64192515_962_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 22,
+  "rating": 7.3,
+  "id": "8"
+ },
+ {
+  "name": "Chicago Bulls Hoodie",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw47f51918/60211065_001_alt2.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 55,
+  "rating": 8.2,
+  "id": "9"
+ },
+ {
+  "name": "Aeropostale",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwb8813449/60162012_607_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 43,
+  "rating": 8.4,
+  "id": "10"
+ },
+ {
+  "name": "Premium Air Skinny Jean",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw24c5f269/64192457_142_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 97,
+  "rating": 8.1,
+  "id": "11"
+ },
+ {
+  "name": "Air Softspun Tech Fleece Bomber Jacket",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw4e389060/60232545_254_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 77,
+  "rating": 9.2,
+  "id": "12"
+ },
+ {
+  "name": "A87 Logo Pique Polo",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwd465a818/60277542_015_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 44,
+  "rating": 7.8,
+  "id": "13"
+ },
+ {
+  "name": "Areo Block Pullover Hoodie",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwdbb80649/60211276_007_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 78,
+  "rating": 7.4,
+  "id": "14"
+ },
+ {
+  "name": "Stretch Twill Joggers",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw075d5f78/64911114_007_alt1.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 95,
+  "rating": 6.9,
+  "id": "15"
+ },
+ {
+  "name": "Air Softspun Tech A87 Hoodie",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwb53c26a1/60232544_007_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 35,
+  "rating": 7.9,
+  "id": "16"
+ },
+ {
+  "name": "Muhammad Ali Graphic Tee",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwce99e8d8/60181082_100_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 96,
+  "rating": 7.7,
+  "id": "17"
+ },
+ {
+  "name": "Cargo Jogger Sweatpants",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw53036253/69612546_052_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 37,
+  "rating": 9,
+  "id": "18"
+ },
+ {
+  "name": "Golden State Warriors Graphic Tee",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw96e39455/60181069_035_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 31,
+  "rating": 7.6,
+  "id": "19"
+ },
+ {
+  "name": "Athletic Slim Premium Air Jean",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw24f84a37/64192371_189_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 37,
+  "rating": 8.6,
+  "id": "20"
+ },
+ {
+  "name": "Marvel Superherose Graphic Tee",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw490e01eb/60181079_007_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 45,
+  "rating": 9.7,
+  "id": "21"
+ },
+ {
+  "name": "Rocky Graphic Tee",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw89b3b8a8/60181097_100_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 65,
+  "rating": 9,
+  "id": "22"
+ },
+ {
+  "name": "Loose Denim Short 10",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw78dbbc2e/66312496_176_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 59,
+  "rating": 8,
+  "id": "23"
+ },
+ {
+  "name": "NBA Team Logos Pullover Hoodie",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw557510ba/60211066_035_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 54,
+  "rating": 6.9,
+  "id": "24"
+ },
+ {
+  "name": "Slim-Light Denim 9.5",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw0179a250/66312486_176_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 47,
+  "rating": 7.5,
+  "id": "25"
+ },
+ {
+  "name": "Dungose Graphic Tee",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwc144afa1/60181080_007_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 38,
+  "rating": 8.6,
+  "id": "26"
+ },
+ {
+  "name": "Air Softspun Tech Fleece Sweatpants",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw244c15d8/69616654_482_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 35,
+  "rating": 8.3,
+  "id": "27"
+ },
+ {
+  "name": "Jack Casper Sweatpants",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw2af473a6/69616654_205_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 61,
+  "rating": 9.4,
+  "id": "28"
+ },
+ {
+  "name": "Megan Gibson Shorts",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw21162f77/69616654_199_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 46,
+  "rating": 10,
+  "id": "29"
+ },
+ {
+  "name": "Super Skinny Premium Jean",
+  "avatar": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw64a1b9ec/64192449_142_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+  "price": 56,
+  "rating": 9.2,
+  "id": "30"
+ }
+]
+
+//----------------------women Data---------------------//
+
+[
+    {
+        "name": "Katie D'Amore",
+        "avatar": "https://images.asos-media.com/products/nike-jordan-flight-mock-neck-long-sleeve-top-in-beige/203332445-1-beige?$n_640w$&wid=634&fit=constrain",
+        "price": 87,
+        "rating": 9.4,
+        "id": "1"
+    },
+    {
+        "name": "Anne Witting",
+        "avatar": "https://images.asos-media.com/products/nike-tech-high-neck-bodysuit-in-black/203283606-1-black?$n_640w$&wid=634&fit=constrain",
+        "price": 40,
+        "rating": 7.0,
+        "id": "2"
+    },
+    {
+        "name": "Stephanie Kulas",
+        "avatar": "https://images.asos-media.com/products/nike-tennis-dri-fit-slam-tank-in-white-and-red/202770987-1-white?$n_640w$&wid=634&fit=constrain",
+        "price": 52,
+        "rating": 9.0,
+        "id": "3"
+    },
+    {
+        "name": "Eduardo Thompson",
+        "avatar": "https://images.asos-media.com/products/topshop-canvas-tote-in-cream/204093617-1-cream?$n_640w$&wid=634&fit=constrain",
+        "price": 50,
+        "rating": 9.8,
+        "id": "4"
+    },
+    {
+        "name": "Mr. Jonathon Oberbrunner",
+        "avatar": "https://images.asos-media.com/products/topshop-canvas-tote-in-black/204093614-1-black?$n_640w$&wid=634&fit=constrain",
+        "price": 48,
+        "rating": 9.6,
+        "id": "5"
+    },
+    {
+        "name": "Loren Brown",
+        "avatar": "https://images.asos-media.com/products/asos-design-curve-herringbone-shacket-in-oatmeal/203826951-1-oatmeal?$n_640w$&wid=634&fit=constrain",
+        "price": 26,
+        "rating": 8.7,
+        "id": "6"
+    },
+    {
+        "name": "Allen Casper",
+        "avatar": "https://images.asos-media.com/products/asos-design-tall-herringbone-shacket-in-oatmeal/203826882-1-oatmeal?$n_640w$&wid=634&fit=constrain",
+        "price": 41,
+        "rating": 7.1,
+        "id": "7"
+    },
+    {
+        "name": "Courtney Carter",
+        "avatar": "https://images.asos-media.com/products/lindex-cable-knit-tights-in-rust/203018023-1-rust?$n_480w$&wid=476&fit=constrain",
+        "price": 22,
+        "rating": 8.3,
+        "id": "8"
+    },
+    {
+        "name": "Joy Satterfield I",
+        "avatar": "https://images.asos-media.com/products/wednesdays-girl-maternity-relaxed-midi-smock-dress-in-pink-red-zebra/204340257-1-pinkzebra?$n_480w$&wid=476&fit=constrain",
+        "price": 55,
+        "rating": 6.5,
+        "id": "9"
+    },
+    {
+        "name": "Robyn Ondricka",
+        "avatar": "https://images.asos-media.com/products/envii-racer-midi-tank-dress-in-black/203971569-1-black?$n_480w$&wid=476&fit=constrain",
+        "price": 43,
+        "rating": 8.2,
+        "id": "10"
+    },
+    {
+        "name": "Blake Larkin",
+        "avatar": "https://images.asos-media.com/products/whistles-cotton-high-neck-smock-dress-in-mini-cord-floral/203815601-1-darkfloral?$n_480w$&wid=476&fit=constrain",
+        "price": 97,
+        "rating": 8.1,
+        "id": "11"
+    },
+    {
+        "name": "Vicki Ward",
+        "avatar": "https://images.asos-media.com/products/pretty-lavish-curve-tie-waist-blazer-mini-dress-in-oyster/203572503-1-oyster?$n_480w$&wid=476&fit=constrain",
+        "price": 77,
+        "rating": 9.3,
+        "id": "12"
+    },
+    {
+        "name": "Ann Marvin",
+        "avatar": "https://images.asos-media.com/products/river-island-geo-chiffon-belted-shirt-midi-dress-in-green/204405770-1-green?$n_480w$&wid=476&fit=constrain",
+        "price": 44,
+        "rating": 8.7,
+        "id": "13"
+    },
+    {
+        "name": "Edmund Botsford",
+        "avatar": "https://images.asos-media.com/products/river-island-mini-shirt-dress-in-beige-leopard-print/204365885-1-beige?$n_480w$&wid=476&fit=constrain",
+        "price": 78,
+        "rating": 7.4,
+        "id": "14"
+    },
+    {
+        "name": "Thomas O'Conner",
+        "avatar": "https://images.asos-media.com/products/river-island-vinyl-boxy-jacket-in-brown/204356094-1-brownamber?$n_480w$&wid=476&fit=constrain",
+        "price": 95,
+        "rating": 8.7,
+        "id": "15"
+    },
+    {
+        "name": "Mark Smitham",
+        "avatar": "https://images.asos-media.com/products/river-island-embossed-envelope-cross-body-bag-with-contrast-strap-in-black/204265040-1-black?$n_480w$&wid=476&fit=constrain",
+        "price": 35,
+        "rating": 7.9,
+        "id": "16"
+    },
+    {
+        "name": "Deborah Koch",
+        "avatar": "https://images.asos-media.com/products/river-island-embossed-chain-crossbody-bag-in-cream/204265032-1-cream?$n_480w$&wid=476&fit=constrain",
+        "price": 96,
+        "rating": 9.6,
+        "id": "17"
+    },
+    {
+        "name": "Hugo Dicki II",
+        "avatar": "https://images.asos-media.com/products/river-island-cut-out-slim-fit-sweater-in-pink/204265006-1-brightpink?$n_480w$&wid=476&fit=constrain",
+        "price": 37,
+        "rating": 8.0,
+        "id": "18"
+    },
+    {
+        "name": "Ms. Judith Lesch V",
+        "avatar": "https://images.asos-media.com/products/river-island-cutwork-detail-knit-top-in-white/204265005-1-white?$n_480w$&wid=476&fit=constrain",
+        "price": 31,
+        "rating": 6.9,
+        "id": "19"
+    },
+    {
+        "name": "Doreen O'Conner",
+        "avatar": "https://images.asos-media.com/products/river-island-balloon-sleeve-smock-mini-shirt-dress-in-black/204264927-1-black?$n_480w$&wid=476&fit=constrain",
+        "price": 37,
+        "rating": 9.5,
+        "id": "20"
+    },
+    {
+        "name": "Angie Bergnaum",
+        "avatar": "https://images.asos-media.com/products/new-look-quilted-faux-fur-shoulder-bag-in-black/204192239-1-black?$n_480w$&wid=476&fit=constrain",
+        "price": 24,
+        "rating": 6.1,
+        "id": "21"
+    },
+    {
+        "name": "Julia Crona",
+        "avatar": "https://images.asos-media.com/products/new-look-lift-and-shape-high-waisted-skinny-jeans-in-authentic-blue-wash/204140027-1-blue?$n_480w$&wid=476&fit=constrain",
+        "price": 20,
+        "rating": 6.4,
+        "id": "22"
+    },
+    {
+        "name": "Edna Nikolaus",
+        "avatar": "https://images.asos-media.com/products/new-look-ribbed-crew-neck-knitted-sweater-in-burgundy/204106000-1-red?$n_480w$&wid=476&fit=constrain",
+        "price": 19,
+        "rating": 8.7,
+        "id": "23"
+    },
+    {
+        "name": "Mr. Claudia Labadie",
+        "avatar": "https://images.asos-media.com/products/river-island-quilted-buckle-high-leg-boot-in-black/204083795-1-black?$n_480w$&wid=476&fit=constrain",
+        "price": 5,
+        "rating": 9.0,
+        "id": "24"
+    },
+    {
+        "name": "Jerome Hintz",
+        "avatar": "https://images.asos-media.com/products/river-island-monogram-scoop-handbag-in-brown/204083771-1-brown?$n_480w$&wid=476&fit=constrain",
+        "price": 47,
+        "rating": 8.8,
+        "id": "25"
+    },
+    {
+        "name": "Margarita Rempel",
+        "avatar": "https://images.asos-media.com/products/river-island-velvet-satchel-handbag-in-bright-pink/204083766-1-brightpink?$n_480w$&wid=476&fit=constrain",
+        "price": 18,
+        "rating": 7.6,
+        "id": "26"
+    },
+    {
+        "name": "Angelo Bogan",
+        "avatar": "https://images.asos-media.com/products/new-look-satin-cargo-trousers-in-black/204074934-1-black?$n_480w$&wid=476&fit=constrain",
+        "price": 35,
+        "rating": 8.2,
+        "id": "27"
+    },
+    {
+        "name": "Jack Casper",
+        "avatar": "https://images.asos-media.com/products/new-look-tall-wide-leg-cargo-pants-in-khaki/204061531-1-khaki?$n_480w$&wid=476&fit=constrain",
+        "price": 61,
+        "rating": 9.2,
+        "id": "28"
+    },
+    {
+        "name": "Megan Gibson",
+        "avatar": "https://images.asos-media.com/products/new-look-petite-coated-skinny-jeans-in-off-white/204061427-1-white?$n_480w$&wid=476&fit=constrain",
+        "price": 46,
+        "rating": 8.0,
+        "id": "29"
+    },
+    {
+        "name": "Cristina Herzog",
+        "avatar": "https://images.asos-media.com/products/river-island-fairisle-sweater-in-cream/204037851-1-cream?$n_480w$&wid=476&fit=constrain",
+        "price": 56,
+        "rating": 9.0,
+        "id": "30"
+    }
+]
