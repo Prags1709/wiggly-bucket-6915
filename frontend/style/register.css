@@ -1,0 +1,70 @@
+.main {
+    display: flex;
+}
+.main>.sub1 {
+    width: 20%;
+    margin-top: 20px;
+    padding: 10px;
+}
+.main>.sub1>.sub-child {
+    margin-top: 15px;
+    padding: 10px;
+}
+.main>.sub1>h4 {
+    margin: 10px 0px;
+    cursor: pointer;
+}
+.main>.sub1>h5 {
+    margin: 7px 0px;
+    color: rgb(85, 83, 83);
+    cursor: pointer;
+}
+.main>.sub1>.sub-child>h4 {
+    margin: 10px 0px;
+}
+.main>.sub1>.sub-child>p {
+    color: gray;
+    font-size: 15px;
+    cursor: pointer;
+} 
+.main>.sub2 {
+    width: 60%;
+    margin-left: 7%;
+    padding: 25px;
+}
+.main>.sub2>.bigbox {
+    display: flex;
+    justify-content: space-evenly;
+}
+.main>.sub2>.bigbox>.register {
+    width: 55%;
+}
+.main>.sub2>.bigbox>.register>label {
+    display: block;
+    font-size: large;
+    margin-top: 20px;
+}
+.main>.sub2>.bigbox>.register>input {
+    width: 90%;
+    padding: 10px;
+    margin-top: -15px;
+}
+.main>.sub2>.bigbox>.register>select {
+    width: 95%;
+    padding: 10px;
+    margin-top: -15px;
+}
+.main>.sub2>.bigbox>.register>button {
+    margin-top: 20px;
+    padding: 10px 75px;
+    font-size: 17px;
+    font-weight: 520;
+    border: 0px;
+    background-color: #005eb8;
+    color: white;
+    border-radius: 22px;
+    cursor: pointer;
+}
+.main>.sub2>.bigbox>.facebook {
+    width: 35%;
+}
