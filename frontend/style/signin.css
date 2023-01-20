@@ -1,0 +1,75 @@
+.main {
+    margin-top: 30px;
+}
+.main>.sub2 {
+    width: 80%;
+}
+.main>.sub2>.bigbox>.register {
+    border-right: 1px solid gray;
+}
+#signin:hover {
+    transform: scale(1.1);
+    transition: 200ms;
+}
+.main>.sub2>.bigbox>.register>h2 {
+    color: #1e3352;
+    margin-bottom: 10px;
+}
+.main>.sub2>.bigbox>.register>.or {
+    margin-top: 35px;
+    color: rgb(131, 124, 124);
+}
+.main>.sub2>.bigbox>.register>.fb {
+    border: 2px solid black;
+    width: 211px;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+}
+.main>.sub2>.bigbox>.register>.fb>h5 {
+    margin-left: 13px;
+}
+#create {
+    border: 2px solid #1e3352;
+    margin-top: 20px;
+    padding: 10px 55px;
+    font-size: 18px;
+    font-weight: 520;
+    background-color: white;
+    color: #1e3352;
+    cursor: pointer;
+}
+#stu {
+    border: 2px solid #1e3352;
+    margin-top: 20px;
+    padding: 10px 55px;
+    font-size: 18px;
+    font-weight: 520;
+    background-color: white;
+    color: #1e3352;
+    cursor: pointer;
+}
+#create:hover {
+    background-color: #1e3352;
+    color: white;
+}
+#stu:hover {
+    background-color: #1e3352;
+    color: white;
+}
+h1 {
+    color: #1e3352;
+    margin-bottom: 5px;
+}
+.main>.sub2>.bigbox>.facebook>label {
+    display: block;
+    font-size: large;
+    margin-top: 20px;
+}
+.main>.sub2>.bigbox>.facebook>input {
+    width: 90%;
+    padding: 10px;
+    margin-top: -15px;
+}

@@ -44,7 +44,7 @@
  document.querySelector("#Explore_container").style.transform = `translateX(-${valu}px)`;
  };
 
- //////////////
+ //////////////USER BUTTONS//////////////
 
  let logo = document.querySelector("#logo")
  logo.addEventListener("click",()=>{
@@ -54,5 +54,20 @@
  let reg = document.querySelector("#register")
  reg.addEventListener("click",()=>{
     window.location.href = "register.html"
+ })
+
+ let signin = document.querySelector("#signin")
+ signin.addEventListener("click",()=>{
+    window.location.href = "signin.html"
+ })
+
+ let women = document.querySelector("#women")
+ women.addEventListener("click",()=>{
+    window.location.href = "women.html"
+ })
+
+ let men = document.querySelector("#men")
+ men.addEventListener("click",()=>{
+    window.location.href = "men.html"
  })
 

@@ -3,6 +3,7 @@ const {connection} = require("./config/db")
 const {userRouter} = require("./routes/user.route")
 const {menRouter} = require("./routes/men.route")
 const {womenRouter} = require("./routes/women.route")
+const {cart_router} = require("./routes/cart.route")
 const {authenticate} = require("./middleware/authenticate.middleware")
 const cors = require("cors")
 require('dotenv').config()
@@ -21,6 +22,8 @@ app.use("/users", userRouter)
 app.use(authenticate)
 app.use("/men", menRouter)
 app.use("/women", womenRouter)
+app.use("/cart", cart_router)
+
 app.listen(process.env.port,async ()=>{
     try {
         await connection

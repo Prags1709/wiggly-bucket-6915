@@ -13,6 +13,11 @@ let logo = document.querySelector("#logo")
     window.location.href = "signin.html"
  })
 
+ let regi = document.querySelector("#create")
+ regi.addEventListener("click",()=>{
+    window.location.href = "register.html"
+ })
+
  let women = document.querySelector("#women")
  women.addEventListener("click",()=>{
     window.location.href = "women.html"
@@ -23,28 +28,20 @@ let logo = document.querySelector("#logo")
     window.location.href = "men.html"
  })
 
- let apply = document.querySelector("#apply")
- apply.addEventListener("click",async ()=>{
-    let first_Name = document.querySelector("#firstname").value ;
-    let last_Name = document.querySelector("#lastname").value;
-    let Phone = document.querySelector("#phone").value;
-    let Gender = document.querySelector("#gender").value;
-    let Dob = document.querySelector("#dob").value;
+
+ let  sign_IN= document.querySelector("#sign_in")
+ sign_IN.addEventListener("click",async ()=>{
     let Email = document.querySelector("#email").value;
     let Password = document.querySelector("#password").value;
 
     let user_data = {
-        first_name: first_Name,
-        last_name: last_Name,
-        phone: Phone,
-        gender: Gender,
-        DOB: Dob,
         email: Email,
         pass: Password
     }
 
+    //console.log(user_data);
     try {
-        let res = await fetch("http://localhost:2023/users/register", {
+        let res = await fetch("http://localhost:2023/users/login", {
             method: 'POST',
             headers: {
             'content-type': 'application/json'
@@ -52,12 +49,16 @@ let logo = document.querySelector("#logo")
             body: JSON.stringify(user_data)
         })
 
+        let data =await res.json()
+        localStorage.setItem("token",data.token)
+         console.log(data)
+
         if(res.ok==true){
-            alert(`Hello ${user_data.first_name}, You are Registration Successfully Completed`)
+            alert(`Welcome, You are Signin Successfully Completed`)
             window.location.href = "index.html"
         }
     } catch (error) {
         console.log(error);
     }
 
- })
+})   
