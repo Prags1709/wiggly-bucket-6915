@@ -6,8 +6,8 @@ const menRouter = express.Router()
 menRouter.get("/",async (req,res)=>{
     const query = req.query
     try {
-        const note = await MenModel.find(query)
-        res.send(note)
+        const product = await MenModel.find(query)
+        res.send(product)
     } catch (error) {
         console.log(error);
         res.send({"msg":"Something went wrong"})
@@ -17,8 +17,8 @@ menRouter.get("/",async (req,res)=>{
 menRouter.post("/create",async (req,res)=>{
     const payload = req.body
     try {
-        const new_note = new MenModel(payload)
-        await new_note.save()
+        const new_pro = new MenModel(payload)
+        await new_pro.save()
         res.send("Men Product has been Created")
     } catch (error) {
         console.log(error);

@@ -12,38 +12,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="./style/register.css">
+    <link rel="stylesheet" href="./style/signin.css">
     <title>Sign in</title>
-    <style>
-        .main {
-            margin-top: 30px;
-        }
-        .main>.sub2 {
-            width: 80%;
-        }
-        .main>.sub2>.bigbox>.register {
-            border-right: 1px solid gray;
-        }
-        #signin:hover {
-            transform: scale(1.1);
-            transition: 200ms;
-        }
-        .main>.sub2>.bigbox>.register>.or {
-            margin-top: 35px;
-            color: rgb(131, 124, 124);
-        }
-        .main>.sub2>.bigbox>.register>.fb {
-            border: 2px solid black;
-            width: 211px;
-            display: flex;
-            justify-content: baseline;
-            align-items: center;
-            cursor: pointer;
-        }
-        .main>.sub2>.bigbox>.register>.fb>h5 {
-            margin-left: 13px;
-        }
-
-    </style>
 </head>
 <body>
     <div id="navbar">
@@ -52,9 +22,9 @@
         </div>
         <div class="bigbar">
             <div class="box1">
-                <div class="btn">Women</div>
-                <div class="btn">Men</div>
-                <div class="btn">Jeans</div>
+                <div class="btn" id="women">Women</div>
+                <div class="btn" id="men">Men</div>
+                <div class="btn" id="jean">Jeans</div>
             </div>
             <div id="logo" class="box2">
                 <img src="./image/EPIC.png" alt="logo">
@@ -93,7 +63,7 @@
                     <input id="email" type="email" placeholder="EMAIL ADDRESS"><br>
                     <label for="pass">Password*</label><br>
                     <input id="password" type="password" placeholder="PASSWORD"><br>
-                    <button style="border-radius: 0px;background-color: #1e3352;" id="signin">SIGN IN</button>
+                    <button style="border-radius: 0px;background-color: #1e3352;" id="sign_in">SIGN IN</button>
                     <p class="or">Or log in using your account from</p>
                     <div class="fb">
                         <img src="https://www.aeropostale.com/on/demandware.static/Sites-aeropostale-Site/-/default/dw1c2fbe2a/images/Facebook.png" alt="fb">
@@ -104,10 +74,24 @@
                 <div class="facebook">
                     <h1>New Customers</h1>
                     <p>Creating an account is easy. Just fill out the<br> form below and enjoy the benefits of being a<br> registered customer.</p>
+                    <button id="create">CREATE ACCOUNT NOW</button>
+                    <h1>Track Your Order</h1>
+                    <p>See your order even if you are not a <br>registered user.</p>
+                    <label for="ORDER NUMBER">ORDER NUMBER*</label><br>
+                    <input type="number" placeholder="ORDER NUMBER*"><br>
+                    <label for="ORDER EMAIL">ORDER EMAIL*</label><br>
+                    <input type="email" placeholder="ORDER EMAIL*"><br>
+                    <label for="ORDERzip">BILLING ZIP CODE*</label><br>
+                    <input type="number" placeholder="BILLING ZIP CODE*"><br>
+                    <button id="stu">CHECK STATUS</button>
                 </div>
             </div>
-            
         </div>
+    </div>
+    <div class="footer">
+        <img src="./image/footer.png" alt="footer">
     </div>
 </body>
 </html>
+
+<script src="./script/signin.js"></script>
