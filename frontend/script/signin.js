@@ -28,6 +28,10 @@ let logo = document.querySelector("#logo")
     window.location.href = "men.html"
  })
 
+ let cart_page = document.querySelector("#cart_bag")
+ cart_page.addEventListener("click",()=>{
+   window.location.href = "cart.html"
+ })
 
  let  sign_IN= document.querySelector("#sign_in")
  sign_IN.addEventListener("click",async ()=>{

@@ -71,3 +71,8 @@
     window.location.href = "men.html"
  })
 
+ let cart_page = document.querySelector("#cart_bag")
+ cart_page.addEventListener("click",()=>{
+   window.location.href = "cart.html"
+ })
+

@@ -87,7 +87,7 @@
     height: 250px;
     position: absolute;
     display: none;
-    z-index: 1;
+    z-index: 2;
     margin-left: -200px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -101,6 +101,9 @@
 }
 #navbar>.bigbar>.box3>.con>.hover:hover{
     background-color: lightblue;
+}
+#cart_bag {
+    cursor: pointer;
 }
 #navbar>.bigbar>.box3>.con>.bag,.person {
     /* position: relative; */
