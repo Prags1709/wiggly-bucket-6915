@@ -23,6 +23,11 @@ let logo = document.querySelector("#logo")
     window.location.href = "men.html"
  })
 
+ let cart_page = document.querySelector("#cart_bag")
+ cart_page.addEventListener("click",()=>{
+   window.location.href = "cart.html"
+ })
+
  let apply = document.querySelector("#apply")
  apply.addEventListener("click",async ()=>{
     let first_Name = document.querySelector("#firstname").value ;

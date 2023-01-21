@@ -36,7 +36,7 @@ let logo = document.querySelector("#logo")
 
  async function display(){
     try {
-        let res = await fetch("http://localhost:2023/women/",{
+        let res = await fetch("http://localhost:2023/men/",{
             headers: {
                 'content-type': 'application/json',
                 Authorization:localStorage.getItem("token")
