@@ -33,6 +33,11 @@ let logo = document.querySelector("#logo")
    window.location.href = "cart.html"
  })
 
+ let Admin = document.querySelector("#admin")
+ Admin.addEventListener("click",()=>{
+   window.location.href = "a-login.html"
+ })
+
  let  sign_IN= document.querySelector("#sign_in")
  sign_IN.addEventListener("click",async ()=>{
     let Email = document.querySelector("#email").value;
@@ -62,6 +67,7 @@ let logo = document.querySelector("#logo")
             window.location.href = "index.html"
         }
     } catch (error) {
+         alert("Wrong Credential")
         console.log(error);
     }
 

@@ -6,6 +6,17 @@ const jwt = require("jsonwebtoken")
 
 const userRouter = express.Router()
 
+userRouter.get("/", async (req,res)=>{
+    const query = req.query
+    try {
+        const user = await UserModel.find(query)
+        res.send(user)
+    } catch (error) {
+        console.log(error);
+        res.send({"msg":"Something went wrong"})
+    }
+})
+
 userRouter.post("/register",async (req,res)=>{
     const {first_name, last_name, phone, gender, DOB, email, pass} = req.body
     try {
@@ -51,6 +62,17 @@ userRouter.post("/login",async (req,res)=>{
     } catch (error) {
         console.log(error)
         res.send("something went error")
+    }
+})
+
+userRouter.delete("/delete/:id",async (req,res)=>{
+    const id = req.params.id
+    try {
+        await UserModel.findByIdAndDelete({_id:id})
+        res.send("User data has been deleted")
+    } catch (error) {
+        console.log(error);
+        res.send({"msg":"Something went wrong"})
     }
 })
 

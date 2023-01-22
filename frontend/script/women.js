@@ -28,6 +28,11 @@ let logo = document.querySelector("#logo")
    window.location.href = "cart.html"
  })
 
+ let Admin = document.querySelector("#admin")
+ Admin.addEventListener("click",()=>{
+   window.location.href = "a-login.html"
+ })
+
  window.addEventListener("load",()=>{
     display()
  })
@@ -117,6 +122,7 @@ async function add_Cart(id){
             alert("Product has been added inside the cart")
          }
       } catch (error) {
+         alert("Something Went wrong")
          console.log(error);
       }
  }

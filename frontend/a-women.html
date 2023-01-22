@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://target.scene7.com/is/image/Target/GUEST_923aa63f-ff3f-48ec-9ea8-c98d69a50db0?wid=488&hei=488&fmt=pjpeg">
+
+    <title>Women-ad-EC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/cart.css">
+    <link rel="stylesheet" href="./style/admin.css">
+    <style>
+        #flex>.total>h2 {
+            text-align: center;
+        }
+        #add>.cart-row>.d-name>img {
+            width: 40%;
+            cursor: pointer;
+        }
+        #add>.cart-row>.d-name>img:hover {
+            transform: scale(4);
+            transition: 300ms;
+        }
+        #item {
+            margin-left: 36%;
+        }
+        #item>h3 {
+            color: blue;
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Epic Collections</a>
+          <div id="logo" class="img">
+            <img src="./image/EPIC.png" alt="logo">
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Epic Collections</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./admin.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                    <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>
+                  </svg>Home/customer page</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./a-women.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                      </svg>Women Product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./a-men.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                      </svg>Men Product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-open-fill" viewBox="0 0 16 16">
+                        <path d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.314l6.709 3.932L8 8.928l1.291.718L16 5.714V5.4a2 2 0 0 0-1.059-1.765l-6-3.2ZM16 6.873l-5.693 3.337L16 13.372v-6.5Zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516ZM0 13.373l5.693-3.163L0 6.873v6.5Z"/>
+                      </svg>Message</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <div class="adm">
+        <h2>Hi Admin, Welcome <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+          </svg></h2>
+    </div>
+    <h2 class="cs">Women's Product Details</h2>
+    <div id="item">
+
+    </div>
+    <div class="title">
+        <h3>ITEM</h3>
+        <h3>NAME</h3>
+        <h3>PRICE</h3>
+        <h3>RATING</h3>
+        <h3>DELETE</h3>
+    </div>
+    <div id="flex">
+        <div class="table">
+            <table id="tab">
+                <!-- <thead>
+                    <tr>
+                        <th class="header1">Item</th>
+                        <th class="header2">Quantity</th>
+                        <th class="header3">Price</th>
+                    </tr>
+                </thead> -->
+    <!--Here tbody will be added through the JS -->
+                <tbody id="add">
+            <!-- --   structor of data    ----     -->
+                    <tr class="cart-row">
+                        <!-- <td class="d-name">
+                            <img src="https://images.asos-media.com/products/new-look-petite-coated-skinny-jeans-in-off-white/204061427-1-white?$n_480w$&wid=476&fit=constrain" alt="pho">
+                        </td>
+                        <td class="d-phone">
+                            <p class="phone">Whote pant longford</p>
+                        </td>
+                        <td class="d-age">
+                            <p class="age">49</p>
+                        </td>
+                        <td class="d-dob">
+                            <p class="dob">8.9</p>
+                        </td>
+                        <td class="del">
+                            <button id="close" data-id="">Remove</button>
+                        </td> -->
+                    </tr>
+                </tbody>   
+            </table>
+        </div>
+       
+        <div class="total">
+            <h2>ADD WOMEN <br>PRODUCTS</h2>
+            <p>Please fill the correct Details</p>
+            <div class="inp">
+                <label for="name">Name*</label><br>
+                <input type="text" name="no" id="name" placeholder="Enter New Admin name"><br>
+                <label for="email">Image*</label><br>
+                <input type="text" name="e" id="image" placeholder="Enter image URL"><br>
+                <label for="pass">Price*</label><br>
+                <input type="number" name="p" id="price" placeholder="Enter Price">
+                <label for="pass">Rating*</label><br>
+                <input type="number" name="p" id="rating" placeholder="Enter Rating">
+            </div>
+            <button id="click">ADD PRODUCT</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<script src="./script/a-women.js"></script>
