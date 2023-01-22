@@ -76,3 +76,8 @@
    window.location.href = "cart.html"
  })
 
+ let Admin = document.querySelector("#admin")
+ Admin.addEventListener("click",()=>{
+   window.location.href = "a-login.html"
+ })
+

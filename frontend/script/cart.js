@@ -30,6 +30,11 @@ let logo = document.querySelector("#logo")
    window.location.href = "cart.html"
  })
 
+ let Admin = document.querySelector("#admin")
+ Admin.addEventListener("click",()=>{
+   window.location.href = "a-login.html"
+ })
+
  window.addEventListener("load",()=>{
     display()
  })
@@ -50,6 +55,7 @@ let logo = document.querySelector("#logo")
         global_data = [...cart_data]
         Render(cart_data)
     } catch (error) {
+        alert("Something Went wrong")
         console.log(error);
     }
  }
@@ -152,6 +158,7 @@ async function Remove_data(id){
         //     display()
         //  })
     } catch (error) {
+        alert("Something Went wrong")
         console.log(error);
     }
 }

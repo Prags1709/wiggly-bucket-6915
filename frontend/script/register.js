@@ -28,6 +28,11 @@ let logo = document.querySelector("#logo")
    window.location.href = "cart.html"
  })
 
+ let Admin = document.querySelector("#admin")
+ Admin.addEventListener("click",()=>{
+   window.location.href = "a-login.html"
+ })
+
  let apply = document.querySelector("#apply")
  apply.addEventListener("click",async ()=>{
     let first_Name = document.querySelector("#firstname").value ;
@@ -62,6 +67,7 @@ let logo = document.querySelector("#logo")
             window.location.href = "index.html"
         }
     } catch (error) {
+      alert("Something Went wrong")
         console.log(error);
     }
 
