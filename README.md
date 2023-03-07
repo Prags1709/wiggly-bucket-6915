@@ -4,10 +4,29 @@ Project:Make a clone of https://www.aeropostale.com/ site
 
 Netlify link:https://idyllic-duckanoo-75fda1.netlify.app/
 
-Mamaearth is an Indian company of Health, Wellness & Fitness. It is one of the leading company or a brand which intends to make lives of mums & expectant mums better and beautiful. A brand which welcomes all babies to a healthy and a safe world.
-Mamaearth products will take care of every parents & baby’s well-being from head to toe with safe, toxin-free, international standard products which you can choose without having to think twice.
+# ABOUT the Epic Collections 🌟
 
-In this project we have tried to manipulate dom elements, styling using css and tried to make a dynamic and responsive website. With our efforts and the technology stack, that we have learned till now in Unit-3 in the Masai school, we were able to clone more or less the whole website with same looking and features.
+Epic collections is a clone of Aeropostale. Aeropostale is a clothing retailer that primarily targets young men and women between the ages of 14 and 40. Aeropostale is known for its casual and comfortable clothing styles, with a focus on denim, graphic tees, hoodies, and other trendy apparel. The brand also sells accessories such as hats, sunglasses, and jewelry.
+
+In this project I have tried to manipulate dom elements, styling using css and tried to make a dynamic and responsive website.
+
+# API end points
+
+<b>Default Endpoint</b>  : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `/user`
+
+    /users/register
+    /users/login
+    /men/
+    /men/create
+    /men/delete/:id
+    /women/
+    /women/create
+    /women/delete/:id
+    /cart/
+    /cart/create
+    /cart/delete/:id
+    /admin/Register
+    /admin/login
 
 # Technolgy Stack Used 🌟
 * HTML
@@ -21,26 +40,29 @@ In this project we have tried to manipulate dom elements, styling using css and 
 For storing user data we also used LocalStorage.
 
 # Images 🌟
-* Login:
+* Register page:
 <br/>
-<img src='/Images/Login.png'/>
-* Home:
+<img src='/Images/ep1.png'/>
+* Login page:
 <br/>
-<img src='/Images/MamaEarth.png'/>
-*Product :
+<img src='/Images/ep2.png'/>
+* Home page:
 <br/>
-<img src='/Images/Product.png'/>
-* Cart :
+<img src='/Images/ep.home.png'/>
+*Product page:
 <br/>
-<img src='/Images/Cart.png'/>
-* Checkout :
+<img src='/Images/ep.product.png'/>
+* Cart page:
+<br/>
+<img src='/Images/ep.cart.png'/>
+* Admin page :
 <br/>
 <img src='/Images/Checkout.png'/>
 
 # End Notes  📑
-In this project we have tried to achieve a near to perfect clone of the original website as much as possible. This entire journey of this construct week has given us experiences and we have learned lots of things by applying to the real website and it gave us a lot of confidence. Most of the features are added and functionality of the website is achieved.
+In this project we have tried to achieve a near to perfect clone of the original website as much as possible. This entire journey of this construct week has given me experiences and I have learned lots of things by applying to the real website and it gave me a lot of confidence. Most of the features are added and functionality of the website is achieved.
 
 # Limitations 
 
-All pages are not responsive yet, pages are not properly visible on small screen devices as we were having only 6 days to complete the project.
+All pages are not responsive yet, pages are not properly visible on small screen devices as I had only 6 days to complete the project.
 
