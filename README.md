@@ -4,6 +4,8 @@ Project:Make a clone of https://www.aeropostale.com/ site
 
 Netlify link:https://idyllic-duckanoo-75fda1.netlify.app/
 
+Backend server deployment:https://odd-pink-dugong-sock.cyclic.app/
+
 # ABOUT the Epic Collections 🌟
 
 Epic collections is a clone of Aeropostale. Aeropostale is a clothing retailer that primarily targets young men and women between the ages of 14 and 40. Aeropostale is known for its casual and comfortable clothing styles, with a focus on denim, graphic tees, hoodies, and other trendy apparel. The brand also sells accessories such as hats, sunglasses, and jewelry.
