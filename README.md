@@ -57,7 +57,7 @@ For storing user data we also used LocalStorage.
 <img src='/Images/ep.cart.png'/>
 * Admin page :
 <br/>
-<img src='/Images/Checkout.png'/>
+<img src='/Images/ep.admin.png'/>
 
 # End Notes  📑
 In this project we have tried to achieve a near to perfect clone of the original website as much as possible. This entire journey of this construct week has given me experiences and I have learned lots of things by applying to the real website and it gave me a lot of confidence. Most of the features are added and functionality of the website is achieved.
